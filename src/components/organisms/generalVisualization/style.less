@@ -1,0 +1,30 @@
+@import "../../../Style.less";
+
+.general-graph-layout {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	.general-graph-card {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 2%;
+		width: 99.4%;
+		min-width: 610;
+		.ant-card-bordered {
+			width: 49%;
+			min-width: 300px;
+			box-shadow: 0 4px 10px 0 rgba(20, 19, 34, 0.03),
+				0 0 10px 0 rgba(19, 19, 29, 0.02);
+			border-color: @background-gray;
+			border-radius: 6px;
+			.ant-card-head {
+				display: flex;
+			}
+			.ant-card-body {
+				height: 200px;
+			}
+		}
+	}
+}

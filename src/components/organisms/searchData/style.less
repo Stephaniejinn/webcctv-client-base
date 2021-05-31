@@ -1,0 +1,52 @@
+@import "../../../Style.less";
+
+.search-area {
+	min-height: 180px;
+	display: flex;
+	flex-direction: column;
+	// justify-content: space-between;
+	.search-area-body {
+		min-height: 180px;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-between;
+		margin-bottom: 1%;
+		.search-area-input-button {
+			display: flex;
+			flex-direction: column;
+		}
+		.search-area-input {
+			min-width: 590px;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+
+			.ant-cascader-picker {
+				width: 71%;
+				margin-bottom: 2%;
+			}
+			.ant-picker {
+				width: 71%;
+				margin-bottom: 2%;
+			}
+			.search-area-radio {
+				width: 71%;
+				display: flex;
+				flex-direction: row;
+				margin-bottom: 2%;
+				.ant-space-align-center {
+					width: 50%;
+				}
+			}
+			.ant-select.ant-select-single.ant-select-show-arrow {
+				width: 96%;
+				margin-bottom: 2%;
+			}
+		}
+		.search-area-input-radio {
+			width: 700px;
+			min-width: 576px;
+		}
+	}
+}

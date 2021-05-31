@@ -1,0 +1,38 @@
+@import "../../../Style.less";
+@import "../style.less";
+
+.realtime-statistic-page {
+	.page-title-and-search-input {
+		display: flex;
+		justify-content: space-between;
+		// flex-flow: row wrap;
+		.search-input-drawer {
+			width: 40%;
+			min-width: 410px;
+		}
+		.page-title-and-search-input-refresh-button {
+			min-width: 450px;
+			width: 450px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+	}
+	.realtime-statistic-video-and-graph {
+		display: flex;
+		flex-direction: row;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 1%;
+		margin-bottom: 1%;
+		.video-container {
+			width: 56%;
+			min-width: 610px;
+		}
+		.realtime-statistic-graph {
+			width: 43.6%;
+			min-width: 550px;
+		}
+	}
+}

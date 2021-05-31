@@ -1,0 +1,46 @@
+@import "../../../Style.less";
+@import "../style.less";
+
+.login-page {
+	.ant-layout-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: #fff;
+		.site-layout-background {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 30%;
+			min-width: 450px;
+			.ant-card-bordered {
+				width: 100%;
+				min-width: 450px;
+				max-width: 520px;
+				margin-top: 60px;
+				box-shadow: 0 4px 10px 0 rgba(20, 19, 34, 0.03),
+					0 0 10px 0 rgba(19, 19, 29, 0.02);
+				border-color: @background-gray;
+				border-radius: 6px;
+				.ant-card-body {
+					padding-top: 60px;
+					padding-bottom: 48px;
+					display: flex;
+					justify-content: center;
+
+					.ant-btn.ant-btn-primary.login-form-button {
+						width: 100%;
+					}
+					.ant-input-affix-wrapper {
+						width: 100%;
+						border-radius: 3px;
+						.ant-input-prefix {
+							color: @icon-gray;
+						}
+					}
+				}
+			}
+		}
+	}
+}

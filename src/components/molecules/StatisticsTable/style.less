@@ -1,0 +1,66 @@
+@import "../../../Style.less";
+.ant-modal-root {
+	.ant-modal-wrap.ant-modal-centered {
+		.ant-modal {
+			width: 630px;
+			.ant-modal-content {
+				box-shadow: 0 4px 10px 0 rgba(20, 19, 34, 0.03),
+					0 0 10px 0 rgba(20, 19, 34, 0.02);
+				width: 630px;
+				.ant-modal-body {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					padding-top: 12px;
+				}
+			}
+		}
+	}
+}
+.empty-data-text {
+	height: 150px;
+	margin-top: 20px;
+}
+.ant-table-wrapper {
+	margin-top: 7px;
+}
+.ant-table.ant-table-small.ant-table-bordered {
+	font-size: 12px;
+	.ant-table-container {
+		.ant-table-content {
+			border-radius: 5px;
+		}
+	}
+}
+.ant-table.ant-table-bordered > .ant-table-container {
+	box-shadow: 0 4px 10px 0 rgba(20, 19, 34, 0.03),
+		0 0 10px 0 rgba(20, 19, 34, 0.02);
+}
+
+.ant-table.ant-table-bordered
+	> .ant-table-container
+	> .ant-table-content
+	> table
+	> thead
+	> tr:not(:last-child)
+	> th {
+	// color: @major-text;
+	// background: @background-gray;
+	color: white;
+	background: @table-gray;
+	font-weight: bold;
+	border-radius: 4px;
+}
+.ant-table.ant-table-bordered
+	> .ant-table-container
+	> .ant-table-content
+	> table
+	> thead
+	> tr
+	> th {
+	color: white;
+	background: @table-gray;
+	border-radius: 3px;
+	font-size: 13px;
+	height: 45px;
+}
