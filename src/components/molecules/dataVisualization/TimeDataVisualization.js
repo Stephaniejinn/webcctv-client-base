@@ -221,7 +221,7 @@ const TimeDataVisualization = (props) => {
 							/>
 						)}
 					</TabPane>
-					{/* <TabPane tab="무단횡단" key="11">
+					<TabPane tab="무단횡단" key="11">
 						{period === "DAY" ? (
 							<PedestriansDashLine
 								activeVisualKey={activeVisualKey}
@@ -233,7 +233,7 @@ const TimeDataVisualization = (props) => {
 								trafficTotalData={trafficTotalData}
 							/>
 						)}
-					</TabPane> */}
+					</TabPane>
 				</>
 			) : null}
 		</Tabs>
